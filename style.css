@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500;600&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Sour Gummy", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 226, 226);
+}
+
+.profile-card{
+    max-width: 370px;
+    width: 100%;
+    background: rgb(240, 237, 237);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.image{
+
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(8, 8, 8);
+    padding: 3px;
+}
+
+/* amra shudu .profile-image aita use na kore .image .profile-image aita use kori karon .image .profile-image aita shob
+profile-image class k change korbe na.aita shudhu image er vitor a thaka  .profile-image ke change korbe */
+
+/* We use object-fit: cover; in CSS to ensure that images or videos fully cover their container without distortion while maintaining their original aspect ratio. */
+.image .profile-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: aqua;
+    padding: 3px;
+}
+
